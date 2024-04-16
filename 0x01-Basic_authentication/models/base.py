@@ -7,7 +7,6 @@ from os import path
 import json
 import uuid
 
-
 TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S"
 DATA = {}
 
@@ -133,5 +132,4 @@ class Base():
                 if (getattr(obj, k) != v):
                     return False
             return True
-        
         return list(filter(_search, DATA[s_class].values()))
