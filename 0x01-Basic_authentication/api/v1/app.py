@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+et !/usr/bin/env python3
 """
 Route module for the API
 """
@@ -66,4 +66,4 @@ def forbidden(error) -> str:
 if __name__ == "__main__":
     host = getenv("API_HOST", "0.0.0.0")
     port = getenv("API_PORT", "5000")
-    app.run(host=host, port=port)
+    app.run(host=host, port=port:)
